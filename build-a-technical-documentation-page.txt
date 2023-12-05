@@ -1,0 +1,153 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Documentation</header>
+            <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Section_1">Section 1</a></li>
+            <li><a class="nav-link" href="#Section_2">Section 2</a></li>
+            <li><a class="nav-link" href="#Section_3">Section 3</a></li>
+            <li><a class="nav-link" href="#Section_4">Section 4</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>This is the introduction section.</p>
+            <p>this section is about intro. </p>
+            <ul>
+                <li>this list will tell you about it's intro.</li>
+                </ul>
+                <code>This will give you the code for intro.</code>
+        </section>
+        <section id="Section_1" class="main-section">
+            <header>Section 1</header>
+            <p>This is section 1.</p>
+            <p>this section is first</p>
+            <ul>
+                <li> this will let you know about first section</li>
+                </ul>
+                <code>This will give you the code for section 1.</code>
+        </section>
+        <section id="Section_2" class="main-section">
+            <header>Section 2</header>
+            <p>This is section 2.</p>
+            <p>this section is second </p>
+            <ul>
+                <li> this will tell you about section 1</li>
+                </ul>
+                <code>This will give you the code for section 2.</code>
+        </section>
+        <section id="Section_3" class="main-section">
+            <header>Section 3</header>
+            <p>This is section 3.</p>
+            <p>this section is third</p>
+            <ul>
+                <li> this will tell you about section 3</li>
+                </ul>
+                 <code>This will give you the code for section 3.</code>
+        </section>
+        <section id="Section_4" class="main-section">
+            <header>Section 4</header>
+            <p>This is section 4.</p>
+            <p>this section is fourth</p>
+            <ul>
+                <li> this will tell you about section 4.</li>
+                </ul>
+                 <code>This will give you the code for section 4.</code>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+#navbar {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#navbar header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    margin-bottom: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#main-doc {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.main-section header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-section p {
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    #navbar {
+        width: 100%;
+        position: static;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+** end of undefined **
+
